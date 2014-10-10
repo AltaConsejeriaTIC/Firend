@@ -11,6 +11,6 @@ areaPorPixel = 2 # cantidad de metros cuadrados contenidos en un pixel
 # debido a la gran cantidad de focos en la imagen solo se procesar? el primero
 # (as? no bloquearan la cuenta por spam)
 
-coordenadaX = (focos[0,0]*areaPorPixel)+kilometrosEsteOeste
-coordenadaY = (focos[0,1]*areaPorPixel)+kilometrosNorteSur
+coordenadaX = (ri.focos[0,0]*areaPorPixel)+kilometrosEsteOeste
+coordenadaY = (ri.focos[0,1]*areaPorPixel)+kilometrosNorteSur
 
