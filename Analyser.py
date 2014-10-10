@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-import Rinteractor as ri
+import RInteractor as ri
 
-focos 
+ri.focos

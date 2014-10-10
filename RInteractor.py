@@ -8,5 +8,3 @@ source('R_Firend/Firend.R')
 ''')
 
 focos = robjects.globalenv['focos']
-
-print focos
