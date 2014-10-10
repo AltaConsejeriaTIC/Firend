@@ -1,11 +1,11 @@
 library("EBImage")
 
-imagen = "sample.png"
+imagen = "~/workspace/Firend/sample.png" # ruta de la imagen
 areaPorPixel = 1 # cantidad de metros cuadrados contenidos en un pixel
 desdeLaColumna = 33 # columna inicial a añadir
 hastaLaFila = 360 # fila final a añadir
 
-imagen_cruda = readImage(system.file("images", imagen, package="EBImage"))
+imagen_cruda = readImage(imagen)
 imagen_cortada=matrix(0, nrow=dim(imagen_cruda)[1]-desdeLaColumna, ncol=hastaLaFila)
 
 k = 1 #contador que recorrerá las casillas de la imagen_cortada
@@ -26,7 +26,7 @@ focos = matrix(0, ncol=2, nrow=length(imagen_cortada[imagen_cortada==1]))
 
 row = 1
 
-# se llena focos
+# se obtienen los focos de calor
 for(i in 1 : dim(imagen_cortada)[1]){
   for (j in 1 : dim(imagen_cortada)[2]){
     
