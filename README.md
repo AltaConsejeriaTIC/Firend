@@ -9,8 +9,8 @@ Python 2 (https://www.python.org/downloads/)<br/>
 R (http://www.r-project.org/)<br/>
 EBImage (http://www.bioconductor.org/packages/release/bioc/html/EBImage.html)<br/>
 rpy2 (http://rpy.sourceforge.net/)<br/>
-python-twitter(https://code.google.com/p/python-twitter/)
-
+python-twitter(https://code.google.com/p/python-twitter/)<br/>
+cuenta en twitter app developer (seguir estas instrucciones por facelesstech en su blog http://facelesstech.wordpress.com/2014/01/01/tweeting-from-python/ )<br/>
 
 **Autores:**
 
