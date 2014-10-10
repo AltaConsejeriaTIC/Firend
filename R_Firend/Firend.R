@@ -20,8 +20,8 @@ for(j in 1 : (dim(imagen_cruda)[1] * dim(imagen_cruda)[2])){
 }
 
 focos = matrix(0, ncol=2, nrow=length(imagen_cortada[imagen_cortada==1]))
-''' matriz que contendrá las coordenadas en la imagen de los puntos de mayor temperatura
-  cada fila será un punto distinto, la primer columna dirá en qué columna de la imagen se'''
+ # matriz que contendrá las coordenadas en la imagen de los puntos de mayor temperatura
+ # cada fila será un punto distinto, la primer columna dirá en qué columna de la imagen se
 
 row = 1
 
