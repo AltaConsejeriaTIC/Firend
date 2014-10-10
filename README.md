@@ -9,7 +9,7 @@ Python 2 (https://www.python.org/downloads/)<br/>
 R (http://www.r-project.org/)<br/>
 EBImage (http://www.bioconductor.org/packages/release/bioc/html/EBImage.html)<br/>
 rpy2 (http://rpy.sourceforge.net/)<br/>
-
+python-twitter(https://code.google.com/p/python-twitter/)
 
 
 **Autores:**
