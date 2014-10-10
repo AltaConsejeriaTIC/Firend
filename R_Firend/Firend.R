@@ -1,7 +1,6 @@
 library("EBImage")
 
 imagen = "~/workspace/Firend/sample.png" # ruta de la imagen
-areaPorPixel = 1 # cantidad de metros cuadrados contenidos en un pixel
 desdeLaColumna = 33 # columna inicial a añadir
 hastaLaFila = 360 # fila final a añadir
 
@@ -37,4 +36,3 @@ for(i in 1 : dim(imagen_cortada)[1]){
     }
   }
 }
-
