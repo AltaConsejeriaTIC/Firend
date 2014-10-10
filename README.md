@@ -5,10 +5,10 @@ Firend es un sistema que recibe una imagen infrarroja (preferiblemente en blanco
 
 **Requerimientos**:
 
-Java jdk 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)<br/>
+Python 2 (https://www.python.org/downloads/)<br/>
 R (http://www.r-project.org/)<br/>
 EBImage (http://www.bioconductor.org/packages/release/bioc/html/EBImage.html)<br/>
-rjava (http://www.rforge.net/rJava/)<br/>
+rpy2 (http://rpy.sourceforge.net/)<br/>
 
 
 
