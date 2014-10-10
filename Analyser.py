@@ -2,4 +2,4 @@
 
 import RInteractor as ri
 
-ri.focos
+print ri.focos
