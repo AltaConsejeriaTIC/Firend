@@ -1,3 +1,5 @@
 #!/usr/bin/env python
 
-print "asdsadasdad"
+import Rinteractor as ri
+
+focos 
